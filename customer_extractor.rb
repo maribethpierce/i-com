@@ -44,4 +44,4 @@ class CustomerExtractor
 end
 
 list_of_customers = CustomerExtractor.new(raw_customer_list)
-puts list_of_customers.close_customers
+puts list_of_customers.all_customers[1].user_id

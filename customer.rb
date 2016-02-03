@@ -21,5 +21,4 @@ class Customer
     @distance.round(2)
   end
 
-
 end
